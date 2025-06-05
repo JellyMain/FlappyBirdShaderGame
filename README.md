@@ -3,13 +3,15 @@
 This is an implementation of the classic Flappy Bird game is rendered entirely within a single **HLSL/CG shader**.
 The gameplay physics and state transitions are controlled by a dedicated C# script (`FlappyBirdController.cs`), while all visuals are rendered directly through the shader.
 
+![Movie_007](https://github.com/user-attachments/assets/03cb9bcd-1b69-4039-bcf9-748001f8210a)
+
 ---
 
 ## Features
 
 ### 🎮 Gameplay
 - Classic Flappy Bird mechanics.
-- Tap (or press space) to make the bird fly.
+- Press space to make the bird fly.
 - Pipes move from right to left.
 - Score increases each time the bird passes a pipe.
 - Game over triggered on collision or flying off-screen.
@@ -26,6 +28,9 @@ The gameplay physics and state transitions are controlled by a dedicated C# scri
 ### 💫 Foil Effect
 - A **dynamic foil effect** is applied to the entire scene using hue shifting based on view direction.
 - Gives the appearance of a shiny, reflective foil card surface.
+
+![Movie_003](https://github.com/user-attachments/assets/caa9b81d-f3e1-49ee-9e71-79a4d4d282b6)
+
 
 ### 🌀 UI Animations
 - Title bobbing animation: uses `sin(time * speed) * amplitude`.
