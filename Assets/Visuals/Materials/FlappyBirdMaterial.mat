@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlappyBirdMaterial
+  m_Shader: {fileID: 4800000, guid: a2c3452b0afd7c249bba1003b99d5176, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackgroundTexture:
+        m_Texture: {fileID: 2800000, guid: a3f2fff59aeb28645b2e8d6bc424aae0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BirdTexture:
+        m_Texture: {fileID: 2800000, guid: 4bdbbe641c372ce4cb5e660fd9485e1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CardTexture:
+        m_Texture: {fileID: 2800000, guid: d5eaa3f5e97fa0e4aa70f16f82dc3c2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GameOverTexture:
+        m_Texture: {fileID: 2800000, guid: 7bd1ae8fc3354cc4386232030e150292, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4bdbbe641c372ce4cb5e660fd9485e1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PipeTexture:
+        m_Texture: {fileID: 2800000, guid: 15685d9bff72840489ab64b1b3a2ecee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PressSpaceToStartTexture:
+        m_Texture: {fileID: 2800000, guid: 08797886266f2b74d8eba584894a102c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TitleTexture:
+        m_Texture: {fileID: 2800000, guid: c2fdb36b07e012c4e914db0d24d0437b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _Score: 14
+    m_Floats:
+    - _BackgroundScale: 0.51
+    - _BirdX: 0.2
+    - _BirdY: 0.32977775
+    - _CardScale: 0
+    - _ColorDensity: 1.5
+    - _FoilIntensity: 0.5
+    - _GameOverScaleAmplitude: 0.02
+    - _GameOverScaleSpeed: 1
+    - _GameState: 1
+    - _Gravity: 0
+    - _JumpForce: 5
+    - _JumpInput: 0.454
+    - _PipeXPosition: 0.70666695
+    - _PipeYPosition: 0.31069785
+    - _PressSpaceAlphaMin: 0.3
+    - _PressSpacePulseSpeed: 2
+    - _Score: 0
+    - _ScoreScale: 0.08
+    - _TitleAmplitude: 0.02
+    - _TitleBobAmplitude: 0.02
+    - _TitleBobSpeed: 1.5
+    - _TitleSpeed: 1.5
+    m_Colors:
+    - _BackgroundPosition: {r: 0.5, g: 0.6, b: 0, a: 1}
+    - _BackgroundScale: {r: 0.89, g: 0.59, b: 0, a: 1}
+    - _BirdPosition: {r: 0.16, g: 0.68, b: 0, a: 1}
+    - _BirdScale: {r: 0.07, g: 0.05, b: 1, a: 1}
+    - _BirdSpawnPosition: {r: 0.2, g: 0.73, b: 0, a: 1}
+    - _CardPosition: {r: 0.5, g: 0.5, b: 0, a: 1}
+    - _CardScale: {r: 0.69, g: -0.07, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 0.34528297, a: 1}
+    - _GameOverPosition: {r: 0.5, g: 0.6, b: 0, a: 1}
+    - _GameOverScale: {r: 0.5, g: 0.1, b: 0, a: 1}
+    - _PipeScale: {r: 0.15, g: 0.45, b: 0, a: 1}
+    - _PressSpaceToStartPosition: {r: 0.56, g: 0.57, b: 0, a: 1}
+    - _PressSpaceToStartScale: {r: 0.6, g: 0.2, b: 0, a: 1}
+    - _ScorePosition: {r: 0.76, g: 0.8, b: 0, a: 1}
+    - _TitlePosition: {r: 0.5, g: 0.83, b: 0, a: 1}
+    - _TitleScale: {r: 0.5, g: 0.1, b: 0, a: 1}
+  m_BuildTextureStacks: []
